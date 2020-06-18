@@ -1,6 +1,6 @@
 FROM debian:9
 
-COPY docker/rsync/files/entry.sh /entry.sh
+COPY rsync-entry.sh /entry.sh
 
 RUN apt-get update && \
     apt-get -y install rsync && \

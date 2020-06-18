@@ -1,6 +1,7 @@
 *
 !.gitignore
 !.dockerignore
+!rsync-entry.sh
 !build-docker-images.sh
 !docker
 !docker/*
